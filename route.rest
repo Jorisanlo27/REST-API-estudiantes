@@ -1,0 +1,28 @@
+Get http://localhost:3000/ejemplo
+
+###
+
+Get http://localhost:3000/ejemplo/609d25c394b5671ae0e5c273
+
+###
+
+POST http://localhost:3000/ejemplo
+Content-Type: application/json
+
+{
+    "name": "Jorge Santana",
+    "grade": "6to A informatica"
+}
+
+###
+
+DELETE http://localhost:3000/ejemplo/609d25c394b5671ae0e5c277
+
+###
+
+PATCH  http://localhost:3000/ejemplo/609ea5d2d17c676414a6b58d
+Content-Type: application/json
+
+{
+    "name": "Eduardo Segura"
+}
